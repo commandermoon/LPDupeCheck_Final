@@ -52,7 +52,7 @@ def main():
     index = 0
     notes = []
     pass_and_entry = {}
-    print("Extracting passwords. This can take a very long time. In testing, 1700+ entries took about 30 minutes.")
+    print("Extracting passwords. This can take a very long time. In testing, 1700+ entries took about 20 minutes.")
     while index < len(valid_ids):
         try:
             current_id = valid_ids[index]
