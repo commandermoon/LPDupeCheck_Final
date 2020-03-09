@@ -117,7 +117,7 @@ if __name__ == '__main__':
     password_extract(valid_ids)
     password_set = set(pass_list)
     pass_hash(password_set)
-    print(len(password_set))
+    print("There are " + len(password_set) + " unique passwords to check.")
     hashcat_dir = input("Please enter the full path to your hashcat install. IE 'E:/bin/hashcat-5.1.0/' "
                         "(Yes, please use forward and trailing slashes on Windows):")
     crack_hash(hash_list)
